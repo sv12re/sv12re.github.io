@@ -7,6 +7,7 @@
 .CaSTL__header {
     height: 20vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -17,4 +18,15 @@
 
 .CaSTL__footer {
     height: 10vh;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li {
+    margin-right: 5px;
 }
