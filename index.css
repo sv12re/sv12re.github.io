@@ -1,0 +1,20 @@
+.CaSTL {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.CaSTL__header {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CaSTL__content {
+    height: 70vh;
+}
+
+.CaSTL__footer {
+    height: 10vh;
+}

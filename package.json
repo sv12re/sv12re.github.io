@@ -1,0 +1,41 @@
+{
+  "name": "castl",
+  "version": "1.0.0",
+  "description": "SPA for Github Pages",
+  "scripts": {
+    "start": "webpack-dev-server --host 0.0.0.0 --open",
+    "build": "webpack",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sv12re/sv12re.github.io.git"
+  },
+  "keywords": [
+    "SPA",
+    "React",
+    "Github",
+    "Pages"
+  ],
+  "author": "Svein-Tore Landsverk",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sv12re/sv12re.github.io/issues"
+  },
+  "homepage": "https://github.com/sv12re/sv12re.github.io#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-router-dom": "^5.3.3",
+    "source-map-loader": "^4.0.1",
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
