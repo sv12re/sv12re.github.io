@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "SPA for Github Pages",
   "scripts": {
-    "start": "webpack-dev-server --host 0.0.0.0 --open",
-    "build": "webpack",
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
     "test": "jest"
   },
   "repository": {
@@ -36,6 +36,7 @@
     "ts-loader": "^9.4.2",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.11.1"
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
   }
 }
